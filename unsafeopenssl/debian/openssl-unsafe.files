@@ -1,0 +1,9 @@
+opt/unsafeopenssl/usr/share/man/man1
+opt/unsafeopenssl/usr/share/man/man5
+opt/unsafeopenssl/usr/share/man/man7
+opt/unsafeopenssl/usr/bin
+opt/unsafeopenssl/usr/lib/ssl/misc
+opt/unsafeopenssl/usr/lib/ssl/certs
+opt/unsafeopenssl/usr/lib/ssl/openssl.cnf
+opt/unsafeopenssl/usr/lib/ssl/private
+opt/unsafeopenssl/etc/ssl

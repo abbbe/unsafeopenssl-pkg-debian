@@ -1,0 +1,4 @@
+opt/unsafeopenssl/usr/bin
+opt/unsafeopenssl/usr/lib
+opt/unsafeopenssl/etc/ssl/certs
+opt/unsafeopenssl/etc/ssl/private
