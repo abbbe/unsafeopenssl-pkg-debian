@@ -1,9 +1,9 @@
 #!/bin/sh -e
 
-if [ ! -e /opt/unsafeopenssl/usr/lib/ssl ]
+if [ ! -e /usr/lib/unsafessl ]
 then
-  echo Linking /opt/unsafeopenssl/usr/lib/ssl to /opt/unsafeopenssl/etc/ssl
-  ln -sf /opt/unsafeopenssl/etc/ssl /opt/unsafeopenssl/usr/lib/ssl
+  echo Linking /usr/lib/unsafessl to /etc/unsafessl
+  ln -sf /etc/unsafessl /usr/lib/unsafessl
 fi
 
 #DEBHELPER#

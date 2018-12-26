@@ -11,4 +11,4 @@ disable_freelist.patch
 soname.patch
 disable_sslv3_test.patch
 libdoc-manpgs-pod-spell.patch
-unsafeopenssl-hardcode-path.patch
+openssl-unsafe-rename.patch

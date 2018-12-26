@@ -1,3 +1,0 @@
-opt/unsafeopenssl/usr/lib/*/*.so.*.*.*
-opt/unsafeopenssl/usr/lib/*/*/*.so.*.*.*
-opt/unsafeopenssl/usr/lib/*/openssl-1.0.2/engines

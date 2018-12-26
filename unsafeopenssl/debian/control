@@ -8,7 +8,7 @@ Standards-Version: 3.9.5
 Package: openssl-unsafe
 Priority: optional
 Architecture: any
-Depends: unsafelibssl1.0.2 (= ${binary:Version}), ${perl:Depends}, ${misc:Depends}
+Depends: libunsafessl1.0.2 (= ${binary:Version}), ${perl:Depends}, ${misc:Depends}
 Suggests: ca-certificates
 Description: Secure Sockets Layer toolkit - cryptographic utility - UNSAFE VERSION
  This package is part of the OpenSSL project's implementation of the SSL
@@ -24,7 +24,7 @@ Description: Secure Sockets Layer toolkit - cryptographic utility - UNSAFE VERSI
   * testing SSL/TLS clients and servers;
   * handling S/MIME signed or encrypted mail.
 
-Package: unsafelibssl1.0.2
+Package: libunsafessl1.0.2
 Section: libs
 Priority: important
 Architecture: any
@@ -38,13 +38,12 @@ Description: Secure Sockets Layer toolkit - shared libraries - UNSAFE VERSION
  .
  It provides the libssl and libcrypto shared libraries.
 
-Package: unsafelibssl-dev
+Package: libunsafessl-dev
 Section: libdevel
 Priority: optional
 Architecture: any
 Multi-Arch: same
-Recommends: unsafelibssl-doc
-Depends: unsafelibssl1.0.2 (= ${binary:Version}), zlib1g-dev, ${misc:Depends}
+Depends: libunsafessl1.0.2 (= ${binary:Version}), zlib1g-dev, ${misc:Depends}
 Description: Secure Sockets Layer toolkit - development files - UNSAFE VERSION
  This package is part of the OpenSSL project's implementation of the SSL
  and TLS cryptographic protocols for secure communication over the
@@ -53,24 +52,12 @@ Description: Secure Sockets Layer toolkit - development files - UNSAFE VERSION
  It contains development libraries, header files, and manpages for libssl
  and libcrypto.
 
-Package: unsafelibssl-doc
-Section: doc
-Priority: optional
-Architecture: all
-Depends: ${shlibs:Depends}, ${perl:Depends}, ${misc:Depends}
-Description: Secure Sockets Layer toolkit - development documentation - UNSAFE VERSION
- This package is part of the OpenSSL project's implementation of the SSL
- and TLS cryptographic protocols for secure communication over the
- Internet.
- .
- It contains manpages and demo files for libssl and libcrypto.
-
-Package: unsafelibssl1.0.2-dbg
+Package: libunsafessl1.0.2-dbg
 Section: debug
 Priority: extra
 Architecture: any
 Multi-Arch: same
-Depends: unsafelibssl1.0.2 (= ${binary:Version}), ${misc:Depends}
+Depends: libunsafessl1.0.2 (= ${binary:Version}), ${misc:Depends}
 Description: Secure Sockets Layer toolkit - debug information - UNSAFE VERSION
  This package is part of the OpenSSL project's implementation of the SSL
  and TLS cryptographic protocols for secure communication over the

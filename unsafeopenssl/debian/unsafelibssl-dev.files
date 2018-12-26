@@ -1,6 +1,0 @@
-opt/unsafeopenssl/usr/lib/*/libssl.so
-opt/unsafeopenssl/usr/lib/*/libcrypto.so
-opt/unsafeopenssl/usr/lib/*/libssl.a
-opt/unsafeopenssl/usr/lib/*/libcrypto.a
-opt/unsafeopenssl/usr/lib/*/pkgconfig
-opt/unsafeopenssl/usr/include
